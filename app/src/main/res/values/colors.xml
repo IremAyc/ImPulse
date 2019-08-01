@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#81D4FA</color>
+    <color name="colorPrimaryDark">#81D4FA</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#515151</color>
+    <color name="blue">#6ab4ed</color>
+    <color name="colorGreyButton">#ECECEC</color>
+    <color name="colorRedButton">#e92121</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="seffaf_siyah_hex_12">#cc000000</color>
+    <color name="black">#000000</color>
+    <color name="FireBrick">#B22222</color>
+    <color name="crimson">#DC143C</color>
+    <color name="mediumpurple">#9370DB</color>
+    <color name="mediumaquamarine">#66CDAA</color>
+    <color name="paleturquoise">#AFEEEE</color>
+    <color name="btn_back">#81D4FA</color>
+    <color name="bt_background"> #B3E5FC</color>
+    <color name="Aquamarine">#7FFFD4</color>
+
+</resources>

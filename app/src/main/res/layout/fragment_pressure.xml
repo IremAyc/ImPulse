@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".fragments.PressureFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="Date"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:id="@+id/heart"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/text_date"
+        android:layout_marginLeft="140dp"
+        android:layout_weight="1"
+        android:src="@drawable/pulse" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heart"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/icon_heart"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/ic_favorite_border_black_24dp" />
+
+        <TextView
+            android:id="@+id/pressure_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="50dp"
+            android:text="............."
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/birim_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mmHg"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/info_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:text="120/80 mmHg değerlerinin altındaki ölçümler genellikle 20 yaş ve üzeri yetişkinler için normal aralıkta olarak değerlendirilir."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_pressure"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons"
+            android:padding="15dp"
+            android:text="ÖLÇ"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_Pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons"
+            android:padding="15dp"
+            android:text="KAYDET"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

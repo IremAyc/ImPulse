@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.RememberFragment">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="250dp" />
+    <TextView
+        android:layout_below="@+id/calendarView"
+        android:layout_marginTop="10dp"
+        android:id="@+id/bşlk"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:text="Başlık:"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/başlık_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input_design"
+        android:layout_below="@id/bşlk"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:padding="12dp" />
+
+    <TextView
+        android:layout_below="@+id/başlık_et"
+        android:id="@+id/saat"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:text="Saat:"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/saat_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input_design"
+        android:layout_below="@id/saat"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:padding="12dp" />
+    <TextView
+        android:layout_below="@+id/saat_et"
+        android:id="@+id/tekrarla"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:text="Tekrarla:"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/tekrarla_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input_design"
+        android:layout_below="@id/tekrarla"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:padding="12dp" />
+    <TextView
+        android:layout_below="@+id/tekrarla_et"
+        android:id="@+id/uyarı"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:text="Uyarı:"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/uyarı_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input_design"
+        android:layout_below="@id/uyarı"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:padding="12dp" />
+    <TextView
+        android:layout_below="@+id/uyarı_et"
+        android:id="@+id/ses"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:text="Ses:"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/ses_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input_design"
+        android:layout_below="@id/ses"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:padding="12dp" />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ses_et"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons"
+            android:padding="15dp"
+            android:text="İPTAL"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_Pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons"
+            android:padding="15dp"
+            android:text="KAYDET"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>
