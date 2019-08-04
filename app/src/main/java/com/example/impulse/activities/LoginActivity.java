@@ -19,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText userEmailEt,userPasswordEt;
     private Button loginBtn;
     private FirebaseAuth mAuth;
-//irem deneme push commenti
+//irem deneme push commenti 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
